@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='src/css/styles.css'>
+  <script src="https://kit.fontawesome.com/7ade3fa465.js" crossorigin="anonymous"></script>
+
+  <link rel='stylesheet' type='text/css' media='screen' href='src/css/navbar.css'>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src='src/js/slideshow.js'></script>
+<body>
+  
+    <nav>
+      <div class="btnOn1">
+        <div class="menu-btn1">
+          <i class="fa-regular fa-rectangle-xmark"></i>
+        </div>
+        <div class="nav-photo">
+          <img src="img/selfie.png" alt="Your photo">
+        </div>
+      <ul>
+        <li class="listA">Nome: André Nicolas Silva Alves</li>
+        <li class="listA">Idade: 21 anos</li>
+        <li class="listA">Nacionalidade: Brasileiro</li>
+        <li class="listA">Formação: Sistemas da Informação</li>
+        <li class="listA">Periódo: 7º periódo</li>
+        <li class="listA">Tel: (47) 991258155</li>
+        <li class="listA">Email: xby75010@hotmail.com</li>
+
+        
+        
+      </ul>
+    </div>
+      <div class="btnOn2">
+        <div class="menu-btn2">
+          <i class="fa-regular fa-rectangle-xmark"></i>
+        </div>
+        <ul>
+          <p class="infoTitulo">Linguagens e frameworks</p>
+          <!-- <p class="info">Css</p> -->
+          <li class="listB">HTML, CSS e Javascript</li>
+          <li class="listB">Typescript</li>
+          <li class="listB">Java</li>
+          <li class="listB">C#</li>
+          <li class="listB">Python</li>
+          <li class="listB">ReactJS</li>
+          <li class="listB">Reactstrap</li>
+
+          <p class="infoTitulo">Banco de dados</p>
+          <li class="listB">MySQL</li>
+          <li class="listB">PostgreSQL</li>
+
+          <p class="infoTitulo">Outras ferramentas</p>
+          <li class="listB">Linux: Ubuntu server</li>
+          <li class="listB">PacketTracer</li>
+          <li class="listB">Docker</li>
+          <li class="listB">Kubernets</li>
+          <li class="listB">Github/Bitbucket</li>
+
+          <p class="infoTitulo">Habilidades interpessoais</p>
+          <li class="listB">Sou comunicativo, sempre em busca de 
+          entender o próximo. O dialogo é crucial para a busca do sucesso!  </li>
+          <li class="listB">Autoconsciência: estou sempre ciente de minhas atitudes em prol do progresso. </li>
+          <li class="listB">Registro: O registro de algo importante é a melhor maneira de se lembrar dela.</li>
+          
+
+        </ul>
+      </div>
+      <div class="btnOn3">
+        <div class="menu-btn3">
+          <i class="fa-regular fa-rectangle-xmark"></i>
+        </div>
+        <ul>
+          <p class="infoTitulo">Experiência acadêmica</p>
+          <p class="info">Sou Graduando em Sistemas da informação desde do ano de 2020. Já trabalhei em 
+            projetos acâdemicos relacionados a área de ensino como na implementação de código em dispositivos como o Arduino e 
+            Raspberry Pi em um circuito em miniatura de um carro de controle remoto, o lecionamento de informática básica para pessoas idosas e em 
+            oficinas relacionados á banco de dados voltado para pessoas do ensino médio. </p>
+          <p class="infoTitulo">Experiência profissional</p>
+          <p class="info">Trabalho como freelancer desenvolvendo pequenas aplicações para clientes. Já trabalhei no desenvolvimento de websites 
+            utilizando frameworks como ReactJS e reactstrap tanto na parte do frontend quanto na estilização de páginas, alé, de desenvolve e integrar o backend
+            com aplicações externas ou desenvolvidas pela própria empresa. Em horas vagas desenvolvo bots utilizando a biblioteca do Discord JS para 
+            clientes que desejam integrar em seus servidores e Estudo o uso do stable diffusing para geração imagens inteiramente originais.</p>
+        </ul>
+      </div>
+      </nav>
+
+    <div class="background-container"></div>
+
+    <span class="filePdf"><a href="/files/NicolasCurriculo.pdf" download>
+        <button><i class="fa-solid fa-file-pdf"></i></i>
+        </button>
+      </a>
+    </span>
+    
+    <div class="acima">
+    <div data-text="SEJA BEM VINDO!" class="bar">SEJA BEM VINDO! 
+    </div>
+    <div class="container">     
+    <div class="card">
+      <h2 class="titulo">EU</h2>
+      <div class="content">
+        <h2>01</h2>
+        <p>Caractéristicas básicas sobre mim. Informações como nome, contato etc..
+        </p>
+        <button class="btn1">Mais informações</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="titulo">HABILIDADES</h2>
+      <div class="content">
+        <h2>02</h2>
+        <p>Algumas habilidades que possuo em relação a minha profissão.
+        </p>
+        <button class="btn2">Mais informações</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="titulo">EXPERIÊNCIA</h2>
+      <div class="content">
+        <h2>03</h2>
+        <p>Experiencia profissional e acadêmica em relação a minha área.
+        </p>
+        <button class="btn3">Mais informações</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="overlay"></div>
+  <script src="src/js/eventBtn.js"></script>
+  <script src='src/js/main.js'></script>
+  <script>VanillaTilt.init(document.querySelectorAll(".card"),{
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1,
+  })
+    ;</script>
+</body>
+</html>
